@@ -263,10 +263,6 @@ void opcontrol() {
       else {
       lift.move(0);
     } 
-
-
-    claw.button_toggle(master.get_digital(DIGITAL_A));
-    claw.button_toggle(master.get_digital(DIGITAL_B));
   
     pros::delay(ez::util::DELAY_TIME);  // This is used for timer calculations!  Keep this ez::util::DELAY_TIME
   }

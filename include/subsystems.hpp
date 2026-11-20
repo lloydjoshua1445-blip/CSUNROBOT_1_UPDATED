@@ -9,8 +9,5 @@ extern Drive chassis;
 
 inline pros::MotorGroup lift({-2,3,4,5});
 
-inline ez::Piston claw('A');
-inline ez::Piston toggle('B');
-
 //inline pros::MotorGroup intake({-7,8});
 // inline pros::adi::DigitalIn limit_switch('A');
